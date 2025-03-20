@@ -1,10 +1,7 @@
 from selenium import webdriver
 import undetected_chromedriver as uc
-from selenium.webdriver.chrome.service import Service
 from time import sleep
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
